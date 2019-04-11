@@ -1,0 +1,182 @@
+.straight{
+    display: inline-flex;
+    background-color: #38003c;
+    width: 100%;
+
+}
+.dropbtn {
+    background-color:#38003c;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .league {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
+  .league-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .league-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .league-content a:hover {background-color: #ddd;}
+  
+  .league:hover .league-content {display: block;}
+  
+  .league:hover .dropbtn {background-color:#160018;}
+
+  .fantasy {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
+  .fantasy-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .fantasy-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .fantasy-content a:hover {background-color: #ddd;}
+  
+  .fantasy:hover .fantasy-content {display: block;}
+  
+  .fantasy:hover .dropbtn {background-color:#160018;}
+
+  .stats {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
+  .stats-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .stats-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .stats-content a:hover {background-color: #ddd;}
+  
+  .stats:hover .stats-content {display: block;}
+  
+  .stats:hover .dropbtn {background-color:#160018;}
+
+  .highlights {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
+  .highlights-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .highlights-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .highlights-content a:hover {background-color: #ddd;}
+  
+  .highlights:hover .highlights-content {display: block;}
+  
+  .highlights:hover .dropbtn {background-color:#160018;}
+
+  .communities {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
+  .communities-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .communities-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .communities-content a:hover {background-color: #ddd;}
+  
+  .communities:hover .communities-content {display: block;}
+  
+  .communities:hover .dropbtn {background-color:#160018;}
+
+  .more {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .more-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .more-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .more-content a:hover {background-color: #ddd;}
+  
+  .more:hover .more-content {display: block;}
+  
+  .more:hover .dropbtn {background-color: #160018;}
