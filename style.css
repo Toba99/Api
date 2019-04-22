@@ -1,3 +1,6 @@
+body,h1,h2,h3,h4,h5,h6,p,span,a,li{
+  font-family: 'Karla', sans-serif;
+}
 .straight{
     display: inline-flex;
     background-color: #38003c;
@@ -174,9 +177,68 @@
     text-decoration: none;
     display: block;
   }
-  
+/* #demo{
+  display: block;
+} */
+.mat{
+  display: flex;
+}
+ .hat{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  border: #000000 1px solid;
+  width: 20%;
+ }
+ .hat2{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  border: #000000 1px solid;
+  width: auto;
+ }
+ .hat3{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  border: #000000 1px solid;
+  width: auto;
+  height: 1000px;
+ } 
+ .mat ul{
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+ }
+ a{
+  text-decoration: none;
+  padding: 7px;
+  display: flex;
+  justify-content: space-around;
+ }
+ li{
+  border-bottom: #e8e8e8 1px solid;
+  padding: 5px;
+ }
+.names{
+  padding-inline-start: 0;
+}
   .more-content a:hover {background-color: #ddd;}
   
   .more:hover .more-content {display: block;}
   
   .more:hover .dropbtn {background-color: #160018;}
+  .hat img{
+    height: 40px;
+    width: 40px;
+  }
+  span{
+    line-height: 40px;
+  }
+  i{
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #playerinfo{
+    text-align: center
+  }
